@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="static/css/mystyle.css">
+        <title>test 3ds</title>
+    </head>
+    <body>
+        <h1 class="title">Video Search Result</h1>
+        {{ range $i := .Items }}
+        <div class="video">
+            <iframe width="350" height="265"
+            src="https://www.youtube.com/embed/{{ $i.Id.VideoId}}">
+            </iframe>
+        </div>
+        {{ end }}
+    </body>
+</html>

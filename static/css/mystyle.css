@@ -1,0 +1,8 @@
+.title {
+    background-color: gray;
+}
+
+.video {
+    display: inline-block; 
+    margin: 20px;
+}
