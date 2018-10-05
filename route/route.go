@@ -3,7 +3,7 @@ package route
 import (
 	"net/http"
 
-	"github.com/lambofgen/testweb/controllers"
+	"github.com/lambofgen/test_web_golang/controllers"
 )
 
 func Create() *http.ServeMux {
