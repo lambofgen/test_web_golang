@@ -4,8 +4,8 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/lambofgen/testweb/services"
-	"github.com/lambofgen/testweb/views"
+	"github.com/lambofgen/test_web_golang/services"
+	"github.com/lambofgen/test_web_golang/views"
 )
 
 func HomeController(w http.ResponseWriter, r *http.Request) {
