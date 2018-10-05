@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/lambofgen/testweb/route"
+	"github.com/lambofgen/test_web_golang/route"
 )
 
 func main() {
