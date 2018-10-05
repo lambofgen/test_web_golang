@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/lambofgen/testweb/models"
+	"github.com/lambofgen/test_web_golang/models"
 )
 
 func GetResponse() (*models.Response, error) {
